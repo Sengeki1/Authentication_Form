@@ -1,4 +1,4 @@
-const User = require("../schema/schema");
+const User = require("../schema/Schema");
 
 const bcrypt = require("bcryptjs");
 const env = require("dotenv");

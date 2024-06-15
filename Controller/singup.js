@@ -1,4 +1,4 @@
-const User = require("../schema/schema");
+const User = require("../schema/Schema");
 
 const { createSecretToken } = require("../utils/generateToken");
 const bcrypt = require("bcryptjs");
