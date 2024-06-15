@@ -1,7 +1,7 @@
 const express = require('express');
-const adminController = require('../Controller/admin');
-const loginController  = require('../Controller/login')
-const singUpController  = require('../Controller/singup')
+const adminController = require('../controller/admin');
+const loginController  = require('../controller/login')
+const singUpController  = require('../controller/singup')
 
 const router = express.Router();
 

@@ -1,11 +1,11 @@
 exports.loginUser = (req, res, next) => {
-    res.render('Login/index',);
+    res.render('login/index',);
 };
 
 exports.singupUser = (req, res, next) => {
-    res.render('Register/index',);
+    res.render('register/index',);
 };
 
 exports.logout = (req, res, next) => {
-    res.render('Includes/successLogout',);
+    res.render('includes/successLogout',);
 };
